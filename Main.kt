@@ -257,6 +257,8 @@ fun main(args: Array<String>) {
 
     //9: object
     //phuong thuc khoi tao
+
+    // constructor chay truoc init(init duoc kotlin cung cap)
     var cat = Animal("Milo","1.2 Kg")
 
     var cat2 = Animal("Milo2", "5.0 Kg")
