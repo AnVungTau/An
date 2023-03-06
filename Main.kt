@@ -1,3 +1,6 @@
+import sun.plugin2.message.Message
+import kotlin.random.Random
+
 fun main(args: Array<String>) {
 
     //1 khai bao bien
@@ -229,11 +232,48 @@ fun main(args: Array<String>) {
 //        }
 //    }
 
-    for ((index,item) in arr1.withIndex()){
-        if (item == 1){
-            continue
-        }
-        println(item)
-    }
+//    for ((index,item) in arr1.withIndex()){
+//        if (item == 1){
+//            continue
+//        }
+//        println(item)
+//    }
+
+    //7: while
+//    var count = Random.nextInt(10)
+//
+//
+//    while (count % 2 == 0){
+//        println(count)
+//        count = Random.nextInt(100)
+//    }
+//
+
+    //8: phuong thuc
+
+    // Unit == Void
+//    showMessage("hello")
+
+
+    //9: object
+    //phuong thuc khoi tao
+    var cat = Animal("Milo","1.2 Kg")
+
+    var cat2 = Animal("Milo2", "5.0 Kg")
+
+
+    println("Name: ${cat.name}, weight: ${cat.weight}")
+    println("Name: ${cat2.name}, weight: ${cat2.weight}")
+
+
 
 }
+
+class Person{
+
+}
+
+//fun showMessage(message: String):Unit{
+//    println(message)
+//
+//}
