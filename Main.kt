@@ -259,13 +259,26 @@ fun main(args: Array<String>) {
     //phuong thuc khoi tao
 
     // constructor chay truoc init(init duoc kotlin cung cap)
-    var cat = Animal("Milo","1.2 Kg")
+//    var cat = Animal("Milo","1.2 Kg")
+//
+//    var cat2 = Animal("Milo2", "5.0 Kg")
+//
+//    cat.printInfo()
+//    cat2.printInfo()
 
-    var cat2 = Animal("Milo2", "5.0 Kg")
+//    println("Name: ${cat.name}, weight: ${cat.weight}")
+//    println("Name: ${cat2.name}, weight: ${cat2.weight}")
+
+    //Tinh dong goi: the hien viec cac thong tin cua doi tuong
+    // phuong thuc getter và setter
+    var cat = Animal("milo",1.2)
+    cat.name = "a"
 
 
-    println("Name: ${cat.name}, weight: ${cat.weight}")
-    println("Name: ${cat2.name}, weight: ${cat2.weight}")
+        print((cat.name))
+//    cat.printInfo()
+
+
 
 
 
