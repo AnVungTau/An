@@ -1,3 +1,5 @@
+import jdk.internal.org.objectweb.asm.tree.analysis.Value
+
 class cat(
     name: String,
     weight: String,
@@ -9,4 +11,10 @@ class cat(
         super.printInfo()
         println("Cat printInfo")
     }
+
+    override var weight: String = ""
+        get() = "Cat $weight"
+        set(value) {
+            field = "Cat $value"
+        }
 }

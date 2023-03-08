@@ -279,13 +279,20 @@ fun main(args: Array<String>) {
 ////    cat.printInfo()
 
     //tinh ke thua: nang cap cac chuc nang moi
-    var cat1 = cat("kitty", "3Kg", "White" )
-    cat1.printInfo()
+//    var cat1 = cat("kitty", "3Kg", "White" )
+//    cat1.printInfo()
 
 
 
 
     //tinh da hinh
+//    var cat1 = cat("kitty", "3Kg", "White" )
+//    cat1.printInfo()
+
+
+
+
+    //tinh truu tuong
 
 
 }
