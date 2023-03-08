@@ -292,8 +292,9 @@ fun main(args: Array<String>) {
 
 
 
-    //tinh truu tuong
-
+    //tinh truu tuong de duy truy
+    var pizzaStore = PizzaStore()
+    pizzaStore.orderPizza(PizzaCheese())
 
 }
 //fun showMessage(message: String):Unit{
