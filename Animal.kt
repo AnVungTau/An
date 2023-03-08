@@ -1,23 +1,23 @@
-class Animal constructor(name: String,weight: Double){
+open class Animal(var name: String, var weight: String){
     //1: thuoc tinh
     //2: phuong thuc
 
 
-     var name: String = ""
-         set(value){
-             if (value == "") throw Exception("Null")
-             field = value
-         }
-         get() { return field }
+//     var name: String = ""
+//         set(value){
+//             if (value == "") throw Exception("Null")
+//             field = value
+//         }
+//         get() { return field }
+//
+//     var weight: Double = weight
+//        get() { return  weight }
+//        set(value){
+//            field = value
+//        }
 
-     var weight: Double = weight
-        get() { return  weight }
-        set(value){
-            field = value
-        }
 
-
-    fun printInfo(){
+    open fun printInfo(){
         println("Name: $name, weight: $weight")
     }
 

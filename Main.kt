@@ -270,24 +270,25 @@ fun main(args: Array<String>) {
 //    println("Name: ${cat2.name}, weight: ${cat2.weight}")
 
     //Tinh dong goi: the hien viec cac thong tin cua doi tuong
-    // phuong thuc getter và setter
-    var cat = Animal("milo",1.2)
-    cat.name = "a"
+    // phuong thuc getter và setter de truy cap
+//    var cat = Animal("milo",1.2)
+//    cat.name = "a"
+//
+//
+//        print((cat.name))
+////    cat.printInfo()
+
+    //tinh ke thua: nang cap cac chuc nang moi
+    var cat1 = cat("kitty", "3Kg", "White" )
+    cat1.printInfo()
 
 
-        print((cat.name))
-//    cat.printInfo()
 
 
-
+    //tinh da hinh
 
 
 }
-
-class Person{
-
-}
-
 //fun showMessage(message: String):Unit{
 //    println(message)
 //
